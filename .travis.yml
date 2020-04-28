@@ -1,6 +1,6 @@
 language: java
 os: osx
-
+install: skip
 jdk:
 - oraclejdk14
 - openjdk14

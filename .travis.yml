@@ -6,7 +6,7 @@ jdk:
 deploy:
   provider: pages
   cleanup: true
-  token: secure
+  #token: secure
   keep_history: true
   on:
     branch: master

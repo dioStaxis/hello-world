@@ -5,8 +5,8 @@ jdk:
   - openjsdk14
 deploy:
     provider: pages 
-    skip_cleanup: true
-    github_token: e97d48595fcc0be208f3d593efa7e454dfe730ec
+    cleanup: true
+    token: Lz4MGoG2X2EOc+IDVX8DZCZSkYQt0pVHaW+G0esTKccysOcJW2KFKr+kMOhQf6xpQnTCUOxKxZXvtuqeVqrXXiRIB5zpEXJe81Q//H/h7FLbRTD67fsFLNoDG/CTCfMp2dPFm+RxTfSDqkHjYOzMizyab6iIcY2v173nOAKf5V9npU0a3SSdHR7sVhMdj+iwApEn3KkV0/aPJcgVlcqWme3MfWICfYVtaMxczusfRJhhXNN+bv0AWWccoYhygzZfMERIsE2oRtMrCpGkLHv0fw5zutWOhQAzjzzY7BS50y/DPlujzNJ/aV42/Ud2jQAcZN4+hfNJRmyNnjTnuun5I0ko2DMl9boqiJ8PeU41vOgeaa/N+07kWhp49PwbMi+JXToYulSo/PRAuI8QBNVK1WGsIlAZOMST0jMswNgyokYDAtLO3fpXNQxatXUW/m3ZyQOiA0/KgaPgbo7fC+JAXeHorn6OzptCsk5JPswSe8oy2JyqI1x7dfSWj/Gc4LtXxQJBpE8spgiwU/+cs3o7ytZBDk3b9XLm8ObM+LM5eW5smTny8/DU7Vb2qjHTOHMiJ/jEe7HQgd9sgxxaS6+nVzwXBtSBcyIKh9y6sKoIsLiaYOVgAVibn8PryRYQoQBBY+DI3LZEKiVoc7WUN1MKwhkNfzlOzT/4nJ4jlE4X7GY=
     keep_history: true
     on:
       branch: master

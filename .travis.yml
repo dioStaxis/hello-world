@@ -2,8 +2,8 @@ language: java
 os: osx
 install: ant deps
 jdk:
-- oraclejdk8
-- openjdk8
+  - oraclejdk9
+  - openjdk9
 
 deploy:
   strategy: git

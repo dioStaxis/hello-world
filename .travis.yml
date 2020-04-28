@@ -1,5 +1,6 @@
 language: java
 os: osx
+strategy: git
 install: ant deps
 jdk:
 - oraclejdk14

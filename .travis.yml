@@ -1,12 +1,13 @@
 language: java
+os: osx
 install: ant deps
 jdk:
 - oraclejdk14
 - openjdk14
+
 deploy:
   provider: pages
   cleanup: true
-  #token: secure
   keep_history: true
   on:
     branch: master

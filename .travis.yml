@@ -1,8 +1,8 @@
-language: 
+language: java
 install: ant deps
 jdk:
   - oraclejdk14
-  - openjdk14
+  - openjsdk14
 deploy:
     provider: pages 
     skip_cleanup: true

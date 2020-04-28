@@ -1,7 +1,6 @@
 language: java
 os: osx
 
-install: ant deps
 jdk:
 - oraclejdk14
 - openjdk14

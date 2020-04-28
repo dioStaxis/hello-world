@@ -1,9 +1,9 @@
 language: java
 os: osx
-install: skip
+install: ant deps
 jdk:
-- oraclejdk14
-- openjdk14
+- oraclejdk8
+- openjdk8
 
 deploy:
   strategy: git

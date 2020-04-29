@@ -57,7 +57,7 @@
 					<appendAssemblyId>false</appendAssemblyId>
 					<archive>
 						<manifest>
-							<mainClass>calcuator.SimpleCalculator</mainClass>
+							<mainClass>calculator.SimpleCalculator</mainClass>
 						</manifest>
 					</archive>
 				</configuration>

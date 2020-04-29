@@ -1,4 +1,17 @@
 language: java
+os: osx
+install: ant deps
 jdk:
-- oraclejdk7
-- openjdk6
+  - oraclejdk9
+  - openjdk9
+
+deploy:
+  strategy: git
+  provider: pages
+  cleanup: true
+  keep_history: true
+  on:
+    branch: master
+env:
+  global:
+    secure: mZxMHwgVdSoCSeEnUuQQKOPAGIAu+6vIIh4wmKH4OKGCbuS5O1X6yYES/qmdBPsRkd6Z/Fb20PdNZcuoFBcp7kXaFfH3CF9ehcg79l+cr5fEqIxbyGqrVcGHqiWkMOp4r5D64mZ8AoVW8nSVGCE/F4xIvIORCJpXL8VQh+i4bMPunoXS9Zub34IFiCaJphMb2VPxErYsnXmTbkXSe0aObNo6yeu7Wz618hpu9otagcy7PtRw8hrg18Cjf0x9br5ipvKb41M0BTlaa16FxatleQb926sexVvGj2uZxLuTT50cZEfhxk47nPjwdFbnD29eQXhGC54jpQM6KJZNXz64OHGkWdf8nQxWA9rd5Z0TUVPLZ6joGK4JBQkwvcpoHpce6he5x99CmQRdJ1ywGF+zFrsnLwKF3ie46clrcnKNHGN24+WAsTxWq+p2EHFkLGFDVrqKaTpd8EZybh2lB+uTO4g1UJi/xJF8rDzj21BpObeHIFxcXyp1Jwm+D1TWb0ZT/trHahpfx2c2bY2IqX9uN0m/hvDrefwG5IWiN8HwM4WeFFnbgn/cLswaUCuiA/wANgpayi1K/2rJixWcrHw76A8kdbca6sTOeIvwa00Wyxb6r5h5zc5sp6bqN2Sroz5q7qRfbCKRcLADccPXCGqaT+YrQh/smEZfJOW3EHQRKIk=

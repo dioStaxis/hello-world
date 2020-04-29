@@ -5,9 +5,7 @@
       <groupId>dioStaxis</groupId>
       <artifactId>calcuator-app</artifactId>
       <version>1</version>
-
-      <name>calcuator-app<name>
-
+      
 	<dependencies>
 
 		<dependency>
@@ -18,5 +16,5 @@
 		</dependency>
 
 	</dependencies>
-    
+
     </project>
